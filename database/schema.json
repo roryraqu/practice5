@@ -1,0 +1,12 @@
+{
+  "name": "/dev/shm/exchange_db",
+  "tuples_limit": 1000,
+  "structure": {
+    "user": ["username", "key"],
+    "lot": ["name"],
+    "pair": ["first_lot_id", "second_lot_id"],
+    "order": ["user_id", "pair_id", "quantity", "price", "type", "closed"],
+    "user_lot": ["user_id", "lot_id", "quantity"],
+    "hold": ["user_id", "lot_id", "amount"]
+  }
+}

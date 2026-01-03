@@ -1,0 +1,14 @@
+{
+    "database_ip": "database",
+    "database_port": 7432,
+    "tuples_limit": 1000,
+    "lots": [
+        "RUB",
+        "BTC",
+        "ETH",
+        "USDT",
+        "USDC",
+        "SOL",
+        "DOGE"
+    ]
+}
